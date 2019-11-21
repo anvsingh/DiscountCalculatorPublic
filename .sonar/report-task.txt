@@ -1,0 +1,5 @@
+projectKey=my:discountcalculator
+serverUrl=http://localhost:9000
+dashboardUrl=http://localhost:9000/dashboard/index/my:discountcalculator
+ceTaskId=AW6PZ2VXaxYfGPiYk782
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AW6PZ2VXaxYfGPiYk782
