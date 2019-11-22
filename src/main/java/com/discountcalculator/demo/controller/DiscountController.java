@@ -23,9 +23,9 @@ public class DiscountController {
 	private DiscountCalculator discountCalc;
 
 	/**
-	 * @param customerType
-	 * @param orderType
-	 * @param bill
+	 * @param customerType pass type of customer 
+	 * @param orderType ordertype 
+	 * @param bill intial amount
 	 * @return
 	 */
 	@GetMapping(path = "/{custType}/{orderType}", produces = "application/json")

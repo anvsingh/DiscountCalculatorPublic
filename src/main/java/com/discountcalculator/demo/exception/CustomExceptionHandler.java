@@ -13,7 +13,8 @@ import org.springframework.web.context.request.WebRequest;
 
 
 /**
- * @author Anuj Sing
+ * @author Anuj Singh
+ * This class is used to handle exception occurring due to http calls
  *
  */
 @SuppressWarnings({"unchecked","rawtypes"})

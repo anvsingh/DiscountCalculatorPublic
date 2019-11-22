@@ -2,8 +2,16 @@ package com.discountcalculator.demo.exception;
 
 import java.util.List;
 
+/**
+ * @author Anuj Singh
+ *
+ */
 public class ErrorResponse
 {
+    /**
+     * @param message Set custom message for exception
+     * @param details Detailed information for errors
+     */
     public ErrorResponse(String message, List<String> details) {
         super();
         this.message = message;
