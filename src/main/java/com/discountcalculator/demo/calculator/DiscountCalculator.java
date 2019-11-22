@@ -4,20 +4,20 @@ import org.springframework.context.annotation.Configuration;
 
 /**
  * @author anujv
- *
+ * This class is used to calculate the discount amount
  */
 @Configuration
 public class DiscountCalculator {
-	int percentDiscount=0;
-	float percentDiscountAmount=0.0f;
-	int netDisocuntAmount=0;
+	int percentDiscount=0;  //value of percentage applicable
+	float percentDiscountAmount=0.0f; //total discount amouunt after percentage
+	int netDisocuntAmount=0; //discount by multiple of 100
 	/**
 	 *  loyal is for user which has been a customer for over 2 years
 	 */
 	/**
-	 * @param custType
-	 * @param orderType
-	 * @param initialBill
+	 * @param custType type of customer can be employee,affiliate and loyal
+	 * @param orderType groceries or anything apart from non groceries
+	 * @param initialBill initial bill amount
 	 * @return
 	 */
 	public int amountPayable(String custType,String orderType,float initialBill ) {
