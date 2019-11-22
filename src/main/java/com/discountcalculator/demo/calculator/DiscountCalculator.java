@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
 public class DiscountCalculator {
 	int percentDiscount=0;  //value of percentage applicable
 	float percentDiscountAmount=0.0f; //total discount amouunt after percentage
-	int netDisocuntAmount=0; //discount by multiple of 100
+	int netDisocuntAmount=0; //discount by 5 on multiple  of 100 
 	/**
 	 *  loyal is for user which has been a customer for over 2 years
 	 */
